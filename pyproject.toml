@@ -1,0 +1,18 @@
+[project]
+name = "noesis_utils"
+version = "1.0.0"
+description = "Utility library for the Noesis Project."
+requires-python = ">=3.10"
+authors = [
+    {name = "Christian (@pusheandoando)"},
+]
+classifiers = [
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/pusheandoando/"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
